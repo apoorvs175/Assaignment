@@ -1,0 +1,13 @@
+
+.graph {
+    display: flex;
+    align-items: flex-end;
+    height: 200px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+.bar {
+    margin-right: 5px;
+    background-color: #4CAF50;
+    width: 30px;
+}

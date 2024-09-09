@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Bar Graphs</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Product Graphs</h1>
+    <input type="text" id="productName" placeholder="Product Name">
+    <input type="number" id="price" placeholder="Price">
+    <input type="number" id="rating" placeholder="Rating">
+    <button onclick="addProduct()">Add Product</button>
+    <div id="graphs">
+        <div id="priceGraph" class="graph"></div>
+        <div id="ratingGraph" class="graph"></div>
+    </div>
+    <button onclick="sortByPrice()">Sort by Price</button>
+    <button onclick="sortByRating()">Sort by Rating</button>
+    <script src="./script.js"></script>
+</body>
+</html>
